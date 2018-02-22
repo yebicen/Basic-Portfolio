@@ -8,7 +8,6 @@
 
      body{
          background-image: url("../images/dust_scratches.png");
-         width:100%;
          background-color: lightgray;
          width:1500px;
      }
@@ -34,7 +33,7 @@
 
     /* What is this function */
 
-    Header{
+    .Header{
         position:fixed;
         top:0;
         left:0;
@@ -44,7 +43,6 @@
 
 
      .Pagetop{
-         background-color:#ffffff;
          position: relative;
          /* required width */
          width:960px;
@@ -68,9 +66,9 @@
 
     .container{
      position:absolute;
-     right:200px;
+     right:0;
      top:20px;
-     width:300px;
+     width:260px;
      /* border: 3px solid red; */
      }
 
@@ -93,10 +91,10 @@
         right:100px;
          background-color: #ffffff;
          /* required width */
-         width:650px;
+         width:600px;
          padding:25px;
          margin-right:50px;
-         border: 1px solid #dddddd;
+         border: 1px solid #cccc
 
     }
      #Aboutme{
@@ -112,8 +110,8 @@
 
     .sidebar{
         position:absolute;
-        right:200px;
-        top:100px;
+        left:690px;
+        top:0;
         background-color:white;
         /* required width */
         width:240px;
@@ -184,9 +182,12 @@ textarea {
 }
 
 .presentation {
-  width: 50%;
-  background-color: white;
-  margin-bottom: 25px;
+  display: block;
+  border:1px solid silver;
+  float: left;
+  width:40%;
+  margin:25px;
+  overflow: auto;
 }
 
 .presentationtab {
