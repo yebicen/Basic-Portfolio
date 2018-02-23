@@ -34,7 +34,7 @@
     /* What is this function */
 
     .Header{
-        position:fixed;
+        position:absolute;
         top:0;
         left:0;
         background-color: #ffffff;
@@ -72,7 +72,7 @@
      /* border: 3px solid red; */
      }
 
-     #tab{
+     .tab{
      text-align: center;
      float:left;
      width:20%;
